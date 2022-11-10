@@ -1,9 +1,9 @@
-import Form from './materi/Form/index';
+import Lifecycle from './materi/Lifecycle';
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Lifecycle />
     </div>
   );
 }
