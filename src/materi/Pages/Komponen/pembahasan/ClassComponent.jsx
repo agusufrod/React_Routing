@@ -32,8 +32,8 @@ class ClassComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1>Komponen ini di buat dengan class komponen</h1>
-        <h2>saya {this.props.nama} belajar class component, State dan Props</h2>
+        <h3>Komponen ini di buat dengan class komponen</h3>
+        <h4>saya {this.props.nama} belajar class component, State dan Props</h4>
         <button onClick={this.handelMinus}>-</button>
         <span>
           {'  '}

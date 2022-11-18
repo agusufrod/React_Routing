@@ -15,8 +15,8 @@ const FunctionComponent = ({ nama }) => {
 
   return (
     <div>
-      <h1>komponen ini di buat dengan function komponen</h1>
-      <h2>saya {nama} belajar function komponen, State dan Props</h2>
+      <h3>komponen ini di buat dengan function komponen</h3>
+      <h4>saya {nama} belajar function komponen, State dan Props</h4>
       <button onClick={handleMinus}>-</button>
       <span> {value} </span>
       <button onClick={handlePlus}>+</button>

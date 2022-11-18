@@ -1,9 +1,13 @@
-import Lifecycle from './materi/Lifecycle';
+import Router from './materi/Config/Router';
+import { BrowserRouter } from 'react-router-dom';
+// import Lifecycle from './materi/Config/Router/pages/Lifecycle';
 
 function App() {
   return (
     <div className="App">
-      <Lifecycle />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default class Bootstrap extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-success shadow-lg fixed-top">
+        {/* <nav className="navbar navbar-expand-lg navbar-dark bg-success shadow-lg fixed-top">
           <div className="container">
             <a className="navbar-brand" href="#">
               Herman Agus Syahputra
@@ -39,7 +39,7 @@ export default class Bootstrap extends React.Component {
               </ul>
             </div>
           </div>
-        </nav>
+        </nav> */}
 
         {/* <!-- Jumbotron --> */}
 
